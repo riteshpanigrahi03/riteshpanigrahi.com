@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --bg: #f9fafb;
+  --card: #ffffff;
+  --header-bg: rgba(249, 250, 251, 0.82);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border: #e2e8f0;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --inline-code-bg: rgba(226, 232, 240, 0.75);
+}
+
+:root.dark,
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0b1120;
+  --card: #111827;
+  --header-bg: rgba(11, 17, 32, 0.78);
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --border: #1f2937;
+  --accent: #3b82f6;
+  --accent-hover: #60a5fa;
+  --inline-code-bg: rgba(30, 41, 59, 0.72);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family:
+    Inter,
+    "Segoe UI",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  @apply antialiased;
+}
+
+a {
+  @apply transition-colors;
+}
+
+.surface-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+}
+
+.prose-content {
+  color: var(--text-secondary);
+  @apply max-w-none text-[1.075rem] leading-8;
+}
+
+.prose-content h1,
+.prose-content h2,
+.prose-content h3 {
+  color: var(--text-primary);
+  @apply mt-12 mb-4 font-semibold tracking-tight;
+}
+
+.prose-content h1 {
+  @apply text-3xl;
+}
+
+.prose-content h2 {
+  @apply text-[1.65rem];
+}
+
+.prose-content h3 {
+  @apply text-xl;
+}
+
+.prose-content p,
+.prose-content ul,
+.prose-content ol,
+.prose-content blockquote {
+  @apply my-5;
+}
+
+.prose-content ul {
+  @apply list-disc pl-6;
+}
+
+.prose-content ol {
+  @apply list-decimal pl-6;
+}
+
+.prose-content blockquote {
+  border-left: 3px solid var(--border);
+  @apply pl-4 italic;
+}
+
+.prose-content code {
+  background: var(--inline-code-bg);
+  @apply rounded px-1 py-0.5 text-sm;
+}
+
+.prose-content pre {
+  @apply my-7 overflow-x-auto rounded-xl border bg-slate-950 p-4 text-sm text-slate-100;
+  border-color: var(--border);
+}
+
+.prose-content pre code {
+  @apply bg-transparent p-0 text-inherit;
+}
+
+.prose-content .hljs-comment,
+.prose-content .hljs-quote {
+  color: #94a3b8;
+}
+
+.prose-content .hljs-keyword,
+.prose-content .hljs-selector-tag,
+.prose-content .hljs-literal,
+.prose-content .hljs-title,
+.prose-content .hljs-section,
+.prose-content .hljs-doctag,
+.prose-content .hljs-type,
+.prose-content .hljs-name,
+.prose-content .hljs-strong {
+  color: #60a5fa;
+}
+
+.prose-content .hljs-string,
+.prose-content .hljs-title.class_,
+.prose-content .hljs-title.class_.inherited__,
+.prose-content .hljs-symbol,
+.prose-content .hljs-bullet,
+.prose-content .hljs-addition,
+.prose-content .hljs-template-tag,
+.prose-content .hljs-template-variable {
+  color: #34d399;
+}
+
+.prose-content .hljs-number,
+.prose-content .hljs-regexp,
+.prose-content .hljs-link,
+.prose-content .hljs-attribute,
+.prose-content .hljs-meta,
+.prose-content .hljs-built_in,
+.prose-content .hljs-attr,
+.prose-content .hljs-variable,
+.prose-content .hljs-params {
+  color: #fbbf24;
+}
