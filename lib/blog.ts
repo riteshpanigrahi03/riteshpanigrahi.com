@@ -19,6 +19,11 @@ export type BlogPost = BlogFrontmatter & {
   content: string;
 };
 
+function normalizeBlogMarkdown(markdown: string): string {
+  // Hashnode exports often wrap images in <kbd>...</kbd>, which can break MDX parsing.
+  return markdown.replace(/<\/?kbd>/gi, "");
+}
+
 export function getAllBlogSlugs(): string[] {
   if (!fs.existsSync(BLOG_DIR)) {
     return [];
@@ -52,7 +57,7 @@ export function getBlogPostBySlug(slug: string): BlogPost | null {
     tags: frontmatter.tags ?? [],
     coverImage: frontmatter.coverImage,
     excerpt: frontmatter.excerpt,
-    content
+    content: normalizeBlogMarkdown(content)
   };
 }
 
