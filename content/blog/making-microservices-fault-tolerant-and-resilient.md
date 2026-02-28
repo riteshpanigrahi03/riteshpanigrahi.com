@@ -3,6 +3,7 @@ title: "Making microservices Fault Tolerant and Resilient"
 date: "2021-08-19T16:07:54.453Z"
 slug: "making-microservices-fault-tolerant-and-resilient"
 tags: ["Springboot", "Microservices", "Java", "Spring"]
+coverImage: ""
 ---
 
 In this article, we will understand 
@@ -43,15 +44,15 @@ Generally, both these terms are used interchangeably but there is a slight diffe
 Consider this below architecture, here service A calls service B and service C. 
 Service B calls an external service.<br />
 
-![resiliance.png](/images/blog/making-microservices-fault-tolerant-and-resilient/image_01.png)
+![resiliance.png](/images/blog/making-microservices-fault-tolerant-and-resilient/image01.png)
 Now we will understand different cases
 
-**Case 1: If any of service B or C is down**
+Case 1:- *If any of service B or C is down*
 <br />
 *Solution*:- We can run duplicate instances of the same services so that even if any one of the instances goes down then we can use another instance available.<br />
 If you are using spring cloud then thanks to service discovery- Eureka and client-side load balancing-Ribbon which helps us handle this easily.
 
-**Case 2: If any microservice is slow**<br />
+Case 2:-* If any microservice is slow*<br />
 
 Suppose the external service to which service B calls is slow, this will result in service B is slow.<br />
 This might seem not a big issue but due to this call to service C becomes slow even though services B and C are independent.<br />
@@ -73,7 +74,7 @@ There can be multiple other reasons like Database is not accessible, Server is d
 As in the above example, we have seen that service B is slow due to which service C also becomes slow. <br />So to avoid this, we can first detect where the problem is and then stop calling that component for some amount of time. Basically, we have to deactivate that component which gives a problem for some time.<br />
 This pattern is called Circuit Breaker pattern as we are breaking the call to the service which gives a problem for a certain amount of time and then again resuming.
 
-![image.png](/images/blog/making-microservices-fault-tolerant-and-resilient/image_02.png)
+![image.png](/images/blog/making-microservices-fault-tolerant-and-resilient/image02.png)
 <br />
 We can use some popular third-party libraries to implement circuit breaking in your application, such as Polly and Hystrix.
 
@@ -93,6 +94,8 @@ The Bulkhead pattern is a type of application design that is tolerant of failure
 This is it for this article. If you found this article helpful do like it.<br />
 As this is my first article, if you have any suggestions then please put them in the comments.<br />
 Thanks for reading !!
+
+
 
 
 

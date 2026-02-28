@@ -46,9 +46,15 @@ function normalizeBlogMarkdown(markdown: string): string {
       (_match, left, inner) => `${left}&lt;${inner.trim()}&gt;`
     );
 
-    // MDX also evaluates {identifier} in prose as JS expressions.
-    // Escape route-style placeholders like /users/{id} while leaving code fences untouched.
-    return escapedGenerics.replace(/\{([A-Za-z_][A-Za-z0-9_]*)\}/g, "&#123;$1&#125;");
+    // MDX evaluates braces in prose as JS expressions.
+    // Escape literal braces outside code fences to avoid compile failures from exported markdown.
+    return escapedGenerics
+      .replace(/&#123;/g, "__LBRACE__")
+      .replace(/&#125;/g, "__RBRACE__")
+      .replace(/\{/g, "&#123;")
+      .replace(/\}/g, "&#125;")
+      .replace(/__LBRACE__/g, "&#123;")
+      .replace(/__RBRACE__/g, "&#125;");
   });
 
   return normalized.join("\n");
