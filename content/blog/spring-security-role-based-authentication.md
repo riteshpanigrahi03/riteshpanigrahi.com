@@ -10,7 +10,7 @@ In the [previous article,](https://riteshpanigrahi.hashnode.dev/understanding-ro
 
 In this article, we will see how to secure APIs using user roles.
 
-In our Employee Application, we have created an API (/api/v1/employees/{employeeId}), we want this API to access only by a user whose role as ADMIN.
+In our Employee Application, we have created an API (`/api/v1/employees/{employeeId}`), we want this API to access only by a user whose role as ADMIN.
 
 For this, we will make use of antMatchers()
 
