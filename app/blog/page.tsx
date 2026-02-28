@@ -17,6 +17,9 @@ export default function BlogListPage() {
         <p className="max-w-2xl text-[1.04rem] leading-7 text-[var(--text-secondary)]">
           Notes on backend engineering, system design, and practical software architecture.
         </p>
+        <p className="text-sm font-medium text-[var(--text-secondary)]">
+          {posts.length} {posts.length === 1 ? "post" : "posts"}
+        </p>
       </header>
 
       {posts.length === 0 ? (
