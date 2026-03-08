@@ -254,14 +254,14 @@ Same query → different results.
 
 Once a transaction reads a row, **nobody can change that row until the transaction finishes**.
 
-### What problems it solves?
+**What problems it solves?**
 
 * Dirty Read
     
 * Non-repeatable Read
     
 
-### Still possible?
+**What problems still remain?**
 
 * Phantom Read
     
