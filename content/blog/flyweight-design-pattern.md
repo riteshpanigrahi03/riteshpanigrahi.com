@@ -1,9 +1,13 @@
 ---
-title: "Flyweight Design Pattern Explained: How Text Editors Save Memory"
-date: "2025-11-22T11:37:26.030Z"
-slug: "flyweight-design-pattern"
-tags: ["System Design", "design patterns"]
-coverImage: "/images/blog/flyweight-design-pattern/cover.png"
+title: 'Flyweight Design Pattern Explained: How Text Editors Save Memory'
+date: '2025-11-22T11:37:26.030Z'
+slug: flyweight-design-pattern
+tags:
+  - System Design
+  - design patterns
+coverImage: /images/blog/flyweight-design-pattern/cover.png
+series: Design Patterns Series
+seriesOrder: 11
 ---
 
 # Suppose Flyweight Pattern does not exist!

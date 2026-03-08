@@ -1,9 +1,11 @@
 ---
-title: "Java OOPS - Introduction & Classes and Objects"
-date: "2022-01-01T03:09:08.756Z"
-slug: "java-oops-classes-and-objects"
-tags: ["Java", "OOPS", "Object Oriented Programming"]
-coverImage: "/images/blog/java-oops-classes-and-objects/cover.png"
+title: Java OOPS - Introduction & Classes and Objects
+date: '2022-01-01T03:09:08.756Z'
+slug: java-oops-classes-and-objects
+tags:
+  - Java
+  - Object Oriented Programming
+coverImage: /images/blog/java-oops-classes-and-objects/cover.png
 ---
 
 Hi all, Welcome to the Object Oriented Programming(OOPs) series in Java.<br/>

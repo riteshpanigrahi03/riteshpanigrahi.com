@@ -1,9 +1,11 @@
 ---
-title: "Java OOPS - Data Hiding and Abstraction"
-date: "2022-01-02T02:21:20.465Z"
-slug: "java-oops-data-hiding-and-abstraction"
-tags: ["OOPS", "Object Oriented Programming", "Java"]
-coverImage: "/images/blog/java-oops-data-hiding-and-abstraction/cover.png"
+title: Java OOPS - Data Hiding and Abstraction
+date: '2022-01-02T02:21:20.465Z'
+slug: java-oops-data-hiding-and-abstraction
+tags:
+  - Object Oriented Programming
+  - Java
+coverImage: /images/blog/java-oops-data-hiding-and-abstraction/cover.png
 ---
 
 Welcome to 2<sup>nd</sup> article of the Java OOPs series, in the  [previous article](https://riteshpanigrahi.hashnode.dev/java-oops-classes-and-objects)  we learned about classes and objects.<br/>

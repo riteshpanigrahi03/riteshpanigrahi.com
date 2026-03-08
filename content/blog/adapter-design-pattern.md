@@ -1,9 +1,15 @@
 ---
-title: "Adapter Pattern Explained: Building Bridges in Your Codebase"
-date: "2024-02-04T11:49:45.805Z"
-slug: "adapter-design-pattern"
-tags: ["Java", "System Design", "design patterns", "adapter design pattern"]
-coverImage: "/images/blog/adapter-design-pattern/cover.png"
+title: 'Adapter Pattern Explained: Building Bridges in Your Codebase'
+date: '2024-02-04T11:49:45.805Z'
+slug: adapter-design-pattern
+tags:
+  - Java
+  - System Design
+  - design patterns
+  - adapter design pattern
+coverImage: /images/blog/adapter-design-pattern/cover.png
+series: Design Patterns Series
+seriesOrder: 6
 ---
 
 Hi Everyone, so far in the design pattern learning journey we have covered all the [5 Creational Design pattern](https://riteshpanigrahi.com/series/system-design), that helped us understand process of object creation under different situations. From this blog onwards, we will start learning all the Structural Design Patterns, kicking off with the Adapter Pattern.

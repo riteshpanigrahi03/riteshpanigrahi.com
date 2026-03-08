@@ -1,9 +1,15 @@
 ---
-title: "Understanding Roles and Authorities & How to create them using Enums?"
-date: "2022-03-30T17:50:33.473Z"
-slug: "understanding-roles-and-authorities-and-how-to-create-them-using-enums"
-tags: ["2Articles1Week", "Java", "Springboot", "Security"]
-coverImage: "/images/blog/understanding-roles-and-authorities-and-how-to-create-them-using-enums/cover.png"
+title: Understanding Roles and Authorities & How to create them using Enums?
+date: '2022-03-30T17:50:33.473Z'
+slug: understanding-roles-and-authorities-and-how-to-create-them-using-enums
+tags:
+  - Java
+  - Springboot
+  - Security
+coverImage: >-
+  /images/blog/understanding-roles-and-authorities-and-how-to-create-them-using-enums/cover.png
+series: Spring Security Series
+seriesOrder: 4
 ---
 
 In the [previous article](https://riteshpanigrahi.hashnode.dev/what-is-basic-auth-and-how-to-secure-apis-using-it), we started with Basic Auth by creating custom users.

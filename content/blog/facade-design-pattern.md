@@ -1,9 +1,13 @@
 ---
-title: "Simplifying Complex Systems with the Facade Design Pattern"
-date: "2025-11-15T12:08:29.766Z"
-slug: "facade-design-pattern"
-tags: ["design patterns", "System Design"]
-coverImage: "/images/blog/facade-design-pattern/cover.png"
+title: Simplifying Complex Systems with the Facade Design Pattern
+date: '2025-11-15T12:08:29.766Z'
+slug: facade-design-pattern
+tags:
+  - design patterns
+  - System Design
+coverImage: /images/blog/facade-design-pattern/cover.png
+series: Design Patterns Series
+seriesOrder: 10
 ---
 
 Imagine planning a trip by yourself – finding flights, booking hotels, sorting transportation, and planning activities. It's a lot of work.

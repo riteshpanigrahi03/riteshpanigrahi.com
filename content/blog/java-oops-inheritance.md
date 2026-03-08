@@ -1,9 +1,12 @@
 ---
-title: "JAVA OOPS - Inheritance"
-date: "2022-01-04T02:39:09.052Z"
-slug: "java-oops-inheritance"
-tags: ["Java", "OOPS", "Object Oriented Programming", "inheritance"]
-coverImage: "/images/blog/java-oops-inheritance/cover.png"
+title: JAVA OOPS - Inheritance
+date: '2022-01-04T02:39:09.052Z'
+slug: java-oops-inheritance
+tags:
+  - Java
+  - Object Oriented Programming
+  - inheritance
+coverImage: /images/blog/java-oops-inheritance/cover.png
 ---
 
 Welcome to 4<sup>th</sup> article of Java OOPs series, in this we will learn everything about Inheritance with examples.<br/>

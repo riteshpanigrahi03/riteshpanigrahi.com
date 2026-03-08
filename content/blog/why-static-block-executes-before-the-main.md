@@ -1,9 +1,10 @@
 ---
-title: "Why static block executes before the main() ?"
-date: "2022-02-14T15:30:51.337Z"
-slug: "why-static-block-executes-before-the-main"
-tags: ["Java", "2Articles1Week"]
-coverImage: "/images/blog/why-static-block-executes-before-the-main/cover.png"
+title: Why static block executes before the main() ?
+date: '2022-02-14T15:30:51.337Z'
+slug: why-static-block-executes-before-the-main
+tags:
+  - Java
+coverImage: /images/blog/why-static-block-executes-before-the-main/cover.png
 ---
 
 Welcome to the Java Shorts Series.

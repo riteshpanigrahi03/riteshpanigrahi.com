@@ -1,9 +1,14 @@
 ---
-title: "Decorating Your Objects: A Guide to the Decorator Design Pattern"
-date: "2025-04-20T12:25:34.979Z"
-slug: "decorator-design-pattern"
-tags: ["design patterns", "System Design", "Java"]
-coverImage: "/images/blog/decorator-design-pattern/cover.png"
+title: 'Decorating Your Objects: A Guide to the Decorator Design Pattern'
+date: '2025-04-20T12:25:34.979Z'
+slug: decorator-design-pattern
+tags:
+  - design patterns
+  - System Design
+  - Java
+coverImage: /images/blog/decorator-design-pattern/cover.png
+series: Design Patterns Series
+seriesOrder: 9
 ---
 
 Imagine you're at Subway, ready to order your sandwich. You start with the basic sandwich, choosing your bread and selecting a filling – whether it's a hearty meat option or a delicious veggie alternative.

@@ -1,9 +1,13 @@
 ---
-title: "Factory Design Pattern"
-date: "2024-01-07T10:30:09.337Z"
-slug: "factory-design-pattern"
-tags: ["System Design", "design patterns"]
-coverImage: "/images/blog/factory-design-pattern/cover.png"
+title: Factory Design Pattern
+date: '2024-01-07T10:30:09.337Z'
+slug: factory-design-pattern
+tags:
+  - System Design
+  - design patterns
+coverImage: /images/blog/factory-design-pattern/cover.png
+series: Design Patterns Series
+seriesOrder: 2
 ---
 
 Hi Everyone, in the last article we understood what is [Singleton Design pattern](https://riteshpanigrahi.com/singleton-design-pattern) and the different ways we can implement it in Java, this article is all about the Factory Design pattern.

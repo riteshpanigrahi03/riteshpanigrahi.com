@@ -1,9 +1,13 @@
 ---
-title: "Abstract Factory Pattern"
-date: "2024-01-11T15:14:23.340Z"
-slug: "abstract-factory-pattern"
-tags: ["System Design", "design patterns"]
-coverImage: "/images/blog/abstract-factory-pattern/cover.png"
+title: Abstract Factory Pattern
+date: '2024-01-11T15:14:23.340Z'
+slug: abstract-factory-pattern
+tags:
+  - System Design
+  - design patterns
+coverImage: /images/blog/abstract-factory-pattern/cover.png
+series: Design Patterns Series
+seriesOrder: 3
 ---
 
 Hi Everyone, in the last two articles we learned about [Singleton](https://riteshpanigrahi.com/singleton-design-pattern) and [Factory](https://riteshpanigrahi.com/factory-design-pattern) Pattern. In this one, we will understand another creational design pattern which is the Abstract Factory Design Pattern.

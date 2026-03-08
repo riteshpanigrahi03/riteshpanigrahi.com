@@ -1,9 +1,14 @@
 ---
-title: "Spring Security: Architecture and Internal Workflow"
-date: "2022-04-20T14:51:56.885Z"
-slug: "spring-security-architecture-and-internal-workflow"
-tags: ["Java", "THW Web Apps", "Springboot"]
-coverImage: "/images/blog/spring-security-architecture-and-internal-workflow/cover.png"
+title: 'Spring Security: Architecture and Internal Workflow'
+date: '2022-04-20T14:51:56.885Z'
+slug: spring-security-architecture-and-internal-workflow
+tags:
+  - Java
+  - THW Web Apps
+  - Springboot
+coverImage: /images/blog/spring-security-architecture-and-internal-workflow/cover.png
+series: Spring Security Series
+seriesOrder: 8
 ---
 
 In the [previous article](https://riteshpanigrahi.hashnode.dev/what-is-csrf-all-about), we learned about CSRF.

@@ -1,9 +1,14 @@
 ---
-title: "Simplify Your Code with SOLID Principles: A Beginner's Guide"
-date: "2023-08-16T17:50:47.374Z"
-slug: "simplify-your-code-with-solid-principles-a-beginners-guide"
-tags: ["SOLID principles", "design principles", "Java", "#codingprinciples"]
-coverImage: "/images/blog/simplify-your-code-with-solid-principles-a-beginners-guide/cover.png"
+title: 'Simplify Your Code with SOLID Principles: A Beginner''s Guide'
+date: '2023-08-16T17:50:47.374Z'
+slug: simplify-your-code-with-solid-principles-a-beginners-guide
+tags:
+  - SOLID principles
+  - design principles
+  - Java
+  - codingprinciples
+coverImage: >-
+  /images/blog/simplify-your-code-with-solid-principles-a-beginners-guide/cover.png
 ---
 
 In the [last article](https://riteshpanigrahi.hashnode.dev/getting-started-with-solid-principles-a-beginners-guide), we learned all about SOLID principles in detail. Now, in this one, we'll put those principles into practice by using some examples and fixing bad code.

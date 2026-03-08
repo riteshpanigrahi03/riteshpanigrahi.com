@@ -1,9 +1,14 @@
 ---
-title: "Getting Started with Spring Security"
-date: "2022-03-23T04:37:31.038Z"
-slug: "getting-started-with-spring-security"
-tags: ["Java", "Springboot", "Spring", "2Articles1Week"]
-coverImage: "/images/blog/getting-started-with-spring-security/cover.png"
+title: Getting Started with Spring Security
+date: '2022-03-23T04:37:31.038Z'
+slug: getting-started-with-spring-security
+tags:
+  - Java
+  - Springboot
+  - Spring
+coverImage: /images/blog/getting-started-with-spring-security/cover.png
+series: Spring Security Series
+seriesOrder: 2
 ---
 
 In the [previous article](https://riteshpanigrahi.hashnode.dev/what-is-spring-security), we understood what spring security is.

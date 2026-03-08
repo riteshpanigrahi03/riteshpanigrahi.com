@@ -1,9 +1,11 @@
 ---
-title: "Java OOPS - Polymorphism - Part 3"
-date: "2022-01-07T03:35:08.032Z"
-slug: "java-oops-polymorphism-method-overriding"
-tags: ["Java", "oop"]
-coverImage: "/images/blog/java-oops-polymorphism-method-overriding/cover.png"
+title: Java OOPS - Polymorphism - Part 3
+date: '2022-01-07T03:35:08.032Z'
+slug: java-oops-polymorphism-method-overriding
+tags:
+  - Java
+  - OOP
+coverImage: /images/blog/java-oops-polymorphism-method-overriding/cover.png
 ---
 
 Welcome to the 7<sup>th</sup> article of this series, we will learn about method overriding and some rules while overriding and in the end, we will also see the comparison between overload and overriding.<br/> <br/> 

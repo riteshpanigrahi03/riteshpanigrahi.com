@@ -1,9 +1,14 @@
 ---
-title: "Spring Security: Role-Based Authentication"
-date: "2022-04-03T17:55:26.532Z"
-slug: "spring-security-role-based-authentication"
-tags: ["2Articles1Week", "Java", "Springboot", "Security"]
-coverImage: "/images/blog/spring-security-role-based-authentication/cover.png"
+title: 'Spring Security: Role-Based Authentication'
+date: '2022-04-03T17:55:26.532Z'
+slug: spring-security-role-based-authentication
+tags:
+  - Java
+  - Springboot
+  - Security
+coverImage: /images/blog/spring-security-role-based-authentication/cover.png
+series: Spring Security Series
+seriesOrder: 5
 ---
 
 In the [previous article,](https://riteshpanigrahi.hashnode.dev/understanding-roles-and-authorities-and-how-to-create-them-using-enums) we have created Roles and Permissions.

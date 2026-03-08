@@ -11,6 +11,8 @@ type BlogFrontmatter = {
   tags: string[];
   coverImage?: string;
   excerpt?: string;
+  series?: string;
+  seriesOrder?: number;
 };
 
 export type BlogPostMeta = BlogFrontmatter;
@@ -93,6 +95,8 @@ export function getBlogPostBySlug(slug: string): BlogPost | null {
     tags: frontmatter.tags ?? [],
     coverImage: frontmatter.coverImage,
     excerpt: frontmatter.excerpt,
+    series: frontmatter.series,
+    seriesOrder: frontmatter.seriesOrder,
     content: normalizeBlogMarkdown(content)
   };
 }
@@ -113,9 +117,75 @@ export function getAllBlogPosts(): BlogPostMeta[] {
         slug: post.slug,
         tags: post.tags,
         ...(post.coverImage ? { coverImage: post.coverImage } : {}),
+        ...(post.series ? { series: post.series } : {}),
+        ...(typeof post.seriesOrder === "number" ? { seriesOrder: post.seriesOrder } : {}),
         excerpt: post.excerpt ?? "Read this post for practical backend engineering insights."
       };
     })
     .filter((post): post is BlogPostMeta => post !== null)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+export function toTagSlug(tag: string): string {
+  return tag
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+export function getUniqueBlogTags(): string[] {
+  const posts = getAllBlogPosts();
+  const tags = new Set<string>();
+
+  for (const post of posts) {
+    for (const tag of post.tags) {
+      if (tag.trim()) {
+        tags.add(tag.trim());
+      }
+    }
+  }
+
+  return Array.from(tags).sort((a, b) => a.localeCompare(b));
+}
+
+export function getPostsByTagSlug(tagSlug: string): BlogPostMeta[] {
+  const posts = getAllBlogPosts();
+  return posts.filter((post) => post.tags.some((tag) => toTagSlug(tag) === tagSlug));
+}
+
+export function toSeriesSlug(series: string): string {
+  return series
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+export function getUniqueBlogSeries(): string[] {
+  const posts = getAllBlogPosts();
+  const seriesSet = new Set<string>();
+
+  for (const post of posts) {
+    if (post.series && post.series.trim()) {
+      seriesSet.add(post.series.trim());
+    }
+  }
+
+  return Array.from(seriesSet).sort((a, b) => a.localeCompare(b));
+}
+
+export function getPostsBySeriesSlug(seriesSlug: string): BlogPostMeta[] {
+  const posts = getAllBlogPosts().filter((post) => post.series && toSeriesSlug(post.series) === seriesSlug);
+
+  return posts.sort((a, b) => {
+    const aOrder = typeof a.seriesOrder === "number" ? a.seriesOrder : Number.MAX_SAFE_INTEGER;
+    const bOrder = typeof b.seriesOrder === "number" ? b.seriesOrder : Number.MAX_SAFE_INTEGER;
+
+    if (aOrder !== bOrder) {
+      return aOrder - bOrder;
+    }
+
+    return new Date(a.date).getTime() - new Date(b.date).getTime();
+  });
 }

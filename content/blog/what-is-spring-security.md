@@ -1,9 +1,14 @@
 ---
-title: "What is Spring Security? & Important terms in Spring Security"
-date: "2022-03-21T03:58:02.920Z"
-slug: "what-is-spring-security"
-tags: ["Springboot", "Security", "Java", "2Articles1Week"]
-coverImage: "/images/blog/what-is-spring-security/cover.png"
+title: What is Spring Security? & Important terms in Spring Security
+date: '2022-03-21T03:58:02.920Z'
+slug: what-is-spring-security
+tags:
+  - Springboot
+  - Security
+  - Java
+coverImage: /images/blog/what-is-spring-security/cover.png
+series: Spring Security Series
+seriesOrder: 1
 ---
 
 Hi All, welcome to the Spring Security Series.

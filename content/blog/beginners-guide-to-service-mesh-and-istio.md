@@ -1,9 +1,10 @@
 ---
-title: "Beginners Guide to Service Mesh and Istio"
-date: "2024-02-21T11:45:35.724Z"
-slug: "beginners-guide-to-service-mesh-and-istio"
-tags: ["#ServiceMesh"]
-coverImage: "/images/blog/beginners-guide-to-service-mesh-and-istio/cover.png"
+title: Beginners Guide to Service Mesh and Istio
+date: '2024-02-21T11:45:35.724Z'
+slug: beginners-guide-to-service-mesh-and-istio
+tags:
+  - ServiceMesh
+coverImage: /images/blog/beginners-guide-to-service-mesh-and-istio/cover.png
 ---
 
 Recently, while inspecting the pod logs for one of the services, I came across something interesting. In addition to the service container, I noticed an Istio container within the same pod.

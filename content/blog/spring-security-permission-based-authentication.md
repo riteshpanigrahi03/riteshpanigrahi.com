@@ -1,9 +1,14 @@
 ---
-title: "Spring Security: Permission-based Authentication"
-date: "2022-04-06T02:44:54.282Z"
-slug: "spring-security-permission-based-authentication"
-tags: ["2Articles1Week", "Java", "Springboot", "Security"]
-coverImage: "/images/blog/spring-security-permission-based-authentication/cover.png"
+title: 'Spring Security: Permission-based Authentication'
+date: '2022-04-06T02:44:54.282Z'
+slug: spring-security-permission-based-authentication
+tags:
+  - Java
+  - Springboot
+  - Security
+coverImage: /images/blog/spring-security-permission-based-authentication/cover.png
+series: Spring Security Series
+seriesOrder: 6
 ---
 
 In the [previous article](https://riteshpanigrahi.hashnode.dev/spring-security-role-based-authentication), we learned about Role-based Authentication. 

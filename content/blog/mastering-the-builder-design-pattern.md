@@ -1,9 +1,14 @@
 ---
-title: "Creating Java Objects Like a Pro: Mastering the Builder Design Pattern"
-date: "2024-01-14T11:03:54.536Z"
-slug: "mastering-the-builder-design-pattern"
-tags: ["Java", "design patterns", "System Design"]
-coverImage: "/images/blog/mastering-the-builder-design-pattern/cover.png"
+title: 'Creating Java Objects Like a Pro: Mastering the Builder Design Pattern'
+date: '2024-01-14T11:03:54.536Z'
+slug: mastering-the-builder-design-pattern
+tags:
+  - Java
+  - design patterns
+  - System Design
+coverImage: /images/blog/mastering-the-builder-design-pattern/cover.png
+series: Design Patterns Series
+seriesOrder: 4
 ---
 
 Hi Everyone, welcome once again to the [Design Pattern series](https://riteshpanigrahi.com/series/system-design), I hope you are finding this helpful. In today's, article we will learn about the Builder Design Pattern, understand why it is required, and implement it in Java.

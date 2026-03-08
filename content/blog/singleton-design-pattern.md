@@ -1,9 +1,15 @@
 ---
-title: "Singleton Design Pattern"
-date: "2024-01-03T12:30:09.823Z"
-slug: "singleton-design-pattern"
-tags: ["design patterns", "System Design", "Java", "interview"]
-coverImage: "/images/blog/singleton-design-pattern/cover.png"
+title: Singleton Design Pattern
+date: '2024-01-03T12:30:09.823Z'
+slug: singleton-design-pattern
+tags:
+  - design patterns
+  - System Design
+  - Java
+  - interview
+coverImage: /images/blog/singleton-design-pattern/cover.png
+series: Design Patterns Series
+seriesOrder: 1
 ---
 
 Hello everyone! Welcome to the first article in the design pattern learning series. In this complete series, we will understand all types of design patterns that will be useful in our software engineering career.

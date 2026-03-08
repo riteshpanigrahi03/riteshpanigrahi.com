@@ -1,9 +1,14 @@
 ---
-title: "Simplify Object Creation with Prototype Pattern"
-date: "2024-01-21T14:26:49.465Z"
-slug: "simplify-object-creation-with-prototype-pattern"
-tags: ["System Design", "design patterns", "Java"]
-coverImage: "/images/blog/simplify-object-creation-with-prototype-pattern/cover.png"
+title: Simplify Object Creation with Prototype Pattern
+date: '2024-01-21T14:26:49.465Z'
+slug: simplify-object-creation-with-prototype-pattern
+tags:
+  - System Design
+  - design patterns
+  - Java
+coverImage: /images/blog/simplify-object-creation-with-prototype-pattern/cover.png
+series: Design Patterns Series
+seriesOrder: 5
 ---
 
 Hi everyone, so far we have seen 4 different Creational design patterns, in today's article we will understand the last Creational design pattern which is the Prototype Design Pattern.

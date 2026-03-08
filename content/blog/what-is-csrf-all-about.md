@@ -1,9 +1,14 @@
 ---
-title: "Spring Security: What is CSRF all about?"
-date: "2022-04-09T12:53:38.373Z"
-slug: "what-is-csrf-all-about"
-tags: ["2Articles1Week", "Java", "Spring", "Security"]
-coverImage: "/images/blog/what-is-csrf-all-about/cover.png"
+title: 'Spring Security: What is CSRF all about?'
+date: '2022-04-09T12:53:38.373Z'
+slug: what-is-csrf-all-about
+tags:
+  - Java
+  - Spring
+  - Security
+coverImage: /images/blog/what-is-csrf-all-about/cover.png
+series: Spring Security Series
+seriesOrder: 7
 ---
 
 In the [previous article](https://riteshpanigrahi.hashnode.dev/spring-security-permission-based-authentication), we understood permission-based authentication where we disabled CSRF.

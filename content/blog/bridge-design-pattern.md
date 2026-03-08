@@ -1,9 +1,15 @@
 ---
-title: "A Guide to Bridge Design Pattern"
-date: "2024-02-13T13:29:27.815Z"
-slug: "bridge-design-pattern"
-tags: ["design patterns", "System Design", "Java", "interview"]
-coverImage: "/images/blog/bridge-design-pattern/cover.png"
+title: A Guide to Bridge Design Pattern
+date: '2024-02-13T13:29:27.815Z'
+slug: bridge-design-pattern
+tags:
+  - design patterns
+  - System Design
+  - Java
+  - interview
+coverImage: /images/blog/bridge-design-pattern/cover.png
+series: Design Patterns Series
+seriesOrder: 7
 ---
 
 Hi everyone, in the last article we learned about the [Adapter Design pattern](https://riteshpanigrahi.com/adapter-design-pattern), in this one we will go through another Structural Design Pattern which is the Bridge Pattern.

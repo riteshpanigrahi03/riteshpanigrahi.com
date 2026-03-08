@@ -1,9 +1,11 @@
 ---
-title: "Java OOPS - Polymorphism - Part 2."
-date: "2022-01-06T02:37:04.906Z"
-slug: "java-oops-polymorphism-method-overloading"
-tags: ["Java", "OOPS"]
-coverImage: "/images/blog/java-oops-polymorphism-method-overloading/cover.png"
+title: Java OOPS - Polymorphism - Part 2.
+date: '2022-01-06T02:37:04.906Z'
+slug: java-oops-polymorphism-method-overloading
+tags:
+  - Java
+  - OOP
+coverImage: /images/blog/java-oops-polymorphism-method-overloading/cover.png
 ---
 
 Welcome to the 6<sup>th</sup> article of this series, we will understand what is method overloading, compile-time polymorphism, static polymorphism, and much more.<br/>

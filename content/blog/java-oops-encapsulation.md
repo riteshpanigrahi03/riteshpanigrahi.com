@@ -1,9 +1,11 @@
 ---
-title: "Java OOPS - Encapsulation"
-date: "2022-01-03T03:29:40.970Z"
-slug: "java-oops-encapsulation"
-tags: ["Java", "OOPS", "Object Oriented Programming"]
-coverImage: "/images/blog/java-oops-encapsulation/cover.png"
+title: Java OOPS - Encapsulation
+date: '2022-01-03T03:29:40.970Z'
+slug: java-oops-encapsulation
+tags:
+  - Java
+  - Object Oriented Programming
+coverImage: /images/blog/java-oops-encapsulation/cover.png
 ---
 
 Welcome to 3<sup>rd</sup> article of Java OOPs series, in this article we will learn about Encapsulation.<br/>

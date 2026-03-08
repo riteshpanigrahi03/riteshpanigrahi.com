@@ -1,9 +1,13 @@
 ---
-title: "Exploring the Composite Design Pattern: Simplify Object Hierarchies"
-date: "2024-03-23T17:55:19.120Z"
-slug: "composite-design-pattern"
-tags: ["design patterns", "System Design"]
-coverImage: "/images/blog/composite-design-pattern/cover.png"
+title: 'Exploring the Composite Design Pattern: Simplify Object Hierarchies'
+date: '2024-03-23T17:55:19.120Z'
+slug: composite-design-pattern
+tags:
+  - design patterns
+  - System Design
+coverImage: /images/blog/composite-design-pattern/cover.png
+series: Design Patterns Series
+seriesOrder: 8
 ---
 
 Hello everyone, welcome to another article of the Design Pattern series and in todays article we will understand all about Composite Design Pattern.

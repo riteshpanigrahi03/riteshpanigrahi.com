@@ -1,9 +1,14 @@
 ---
-title: "What is Basic Auth and How to secure APIs using it?"
-date: "2022-03-26T04:21:48.313Z"
-slug: "what-is-basic-auth-and-how-to-secure-apis-using-it"
-tags: ["Java", "Security", "Springboot", "2Articles1Week"]
-coverImage: "/images/blog/what-is-basic-auth-and-how-to-secure-apis-using-it/cover.png"
+title: What is Basic Auth and How to secure APIs using it?
+date: '2022-03-26T04:21:48.313Z'
+slug: what-is-basic-auth-and-how-to-secure-apis-using-it
+tags:
+  - Java
+  - Security
+  - Springboot
+coverImage: /images/blog/what-is-basic-auth-and-how-to-secure-apis-using-it/cover.png
+series: Spring Security Series
+seriesOrder: 3
 ---
 
 In the [previous article](https://riteshpanigrahi.hashnode.dev/getting-started-with-spring-security), we started by creating an employee API and secured it by just adding spring-security dependency and got introduced with form-based login.

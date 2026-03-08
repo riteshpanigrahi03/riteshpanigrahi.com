@@ -1,9 +1,11 @@
 ---
-title: "Java OOPS  - Polymorphism - Part 1"
-date: "2022-01-05T03:08:03.613Z"
-slug: "java-oops-polymorphism-part-1"
-tags: ["Java", "oop"]
-coverImage: "/images/blog/java-oops-polymorphism-part-1/cover.png"
+title: Java OOPS  - Polymorphism - Part 1
+date: '2022-01-05T03:08:03.613Z'
+slug: java-oops-polymorphism-part-1
+tags:
+  - Java
+  - OOP
+coverImage: /images/blog/java-oops-polymorphism-part-1/cover.png
 ---
 
 Welcome to the 5<sup>th</sup> article of this series.<br/>
