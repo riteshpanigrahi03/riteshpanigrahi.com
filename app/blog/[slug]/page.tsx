@@ -5,6 +5,7 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import type { ReactNode } from "react";
 import rehypeHighlight from "rehype-highlight";
 import remarkGfm from "remark-gfm";
+import { MermaidDiagram } from "@/components/mermaid-diagram";
 import { formatDate } from "@/lib/date";
 import { getAllBlogSlugs, getBlogPostBySlug } from "@/lib/blog";
 
@@ -151,6 +152,19 @@ export default async function BlogDetailPage({ params }: BlogDetailPageProps) {
         <MDXRemote
           source={post.content}
           components={{
+            pre: ({ children, ...props }) => {
+              if (children && typeof children === "object" && "props" in children) {
+                const codeElement = children as { props?: { className?: string; children?: ReactNode } };
+                const className = codeElement.props?.className ?? "";
+
+                if (className.includes("language-mermaid")) {
+                  const chart = flattenText(codeElement.props?.children).trim();
+                  return <MermaidDiagram chart={chart} />;
+                }
+              }
+
+              return <pre {...props}>{children}</pre>;
+            },
             h2: ({ children, ...props }) => {
               const heading = flattenText(children);
               return (
