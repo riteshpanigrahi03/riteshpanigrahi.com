@@ -127,7 +127,7 @@ When multiple transactions run at the same time, the database uses **Shared Lock
 
 But until when the lock needs to be held changes based on the **isolation level**
 
-### **1\. Read Uncommitted**
+### **1. Read Uncommitted**
 
 **Locking behavior:**
 
@@ -142,7 +142,7 @@ Since no S-locks are taken, a transaction can read a row **even if another trans
 
 This is the least safe isolation level.
 
-### **2\. Read Committed**
+### **2. Read Committed**
 
 (Default for many databases)
 
@@ -172,7 +172,7 @@ So while reading a row:
 
 **Because the lock is not held until the transaction ends (commit)**, if you try to read the same row again later, you may get a different value → **Non-repeatable reads**.
 
-### **3\. Repeatable Read**
+### **3. Repeatable Read**
 
 **Locking Rules**
 
@@ -196,7 +196,7 @@ The database prevents:
 
 Because no one can modify the row while you are reading it multiple times.
 
-### **4\. Serializable**
+### **4. Serializable**
 
 **Locking Rules**
 
